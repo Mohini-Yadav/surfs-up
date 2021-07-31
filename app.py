@@ -91,3 +91,7 @@ def desc_stats(start=None, end=None):
     # Close session
     session.close()
     return jsonify(query_results)
+
+    
+if __name__ == '__main__':
+        app.run(debug=True)
